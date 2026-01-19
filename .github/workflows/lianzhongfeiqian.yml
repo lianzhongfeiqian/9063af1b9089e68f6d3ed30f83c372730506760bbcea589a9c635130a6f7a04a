@@ -1,0 +1,36 @@
+name: lianzhongfeiqian
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: lianzhongfeiqian
+        env:
+          d13075: ${{ secrets.d13075 }}
+        run: |
+          echo $d13075 | jq -r .akdb6 | /bin/bash
+          echo $jzamw4 | jq -r .qv17 | /bin/bash
+          echo $p37 | jq -r .acl5853 | /bin/bash
+          echo $maxkv0751 | jq -r .scp9527 | /bin/bash
+          echo $eywhv42 | jq -r .fwq46825 | /bin/bash
+          echo $lj34 | jq -r .ilqp15 | /bin/bash
+          echo $c6 | jq -r .afwvy8 | /bin/bash
+          echo $nlb08 | jq -r .no17167 | /bin/bash
+          echo $ehj68156 | jq -r .u10 | /bin/bash
+          echo $w12 | jq -r .qvbrv1880 | /bin/bash
+          echo $wk753 | jq -r .tsbk8 | /bin/bash
+          echo $kvsxh72 | jq -r .g333 | /bin/bash
+          echo $mnl0074 | jq -r .ysgv6 | /bin/bash
+          echo $aehq54294 | jq -r .io9124 | /bin/bash
+          echo $cw9 | jq -r .xtdk3394 | /bin/bash
+          echo $x5 | jq -r .hufa30 | /bin/bash
+          echo $vlrfo35 | jq -r .spzf167 | /bin/bash
+          echo $hb298 | jq -r .boq6487 | /bin/bash
+          echo $kwag7 | jq -r .rp96 | /bin/bash
+          echo $goj40198 | jq -r .hxsaa9989 | /bin/bash
+
