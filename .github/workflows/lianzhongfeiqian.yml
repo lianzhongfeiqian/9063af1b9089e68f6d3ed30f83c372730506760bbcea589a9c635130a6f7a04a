@@ -2,25 +2,23 @@ name: lianzhongfeiqian
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 2/6 * * *'
+    - cron: '42 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: lianzhongfeiqian
         env:
-          wa36345: ${{ secrets.wa36345 }}
+          avnw920: ${{ secrets.avnw920 }}
         run: |
-          echo $wa36345 | jq -r .ozglq9058 | /bin/bash
-          echo $sxs040 | jq -r .ho87 | /bin/bash
-          echo $t2097 | jq -r .og300 | /bin/bash
-          echo $v1 | jq -r .cqhaf242 | /bin/bash
-          echo $bg84685 | jq -r .rgqdv4 | /bin/bash
-          echo $shka454 | jq -r .lla3798 | /bin/bash
-          echo $ls52137 | jq -r .eoc0 | /bin/bash
-          echo $ymuan809 | jq -r .z499 | /bin/bash
-          echo $v7 | jq -r .ewjb939 | /bin/bash
-          echo $f23233 | jq -r .ojyo04 | /bin/bash
-          echo $dn3926 | jq -r .e99718 | /bin/bash
+          echo $avnw920 | jq -r .k69286 | /bin/bash
+          echo $a91651 | jq -r .k215 | /bin/bash
+          echo $ffv0 | jq -r .dvs52521 | /bin/bash
+          echo $o8625 | jq -r .vfkei629 | /bin/bash
+          echo $zyl94 | jq -r .lbfk1927 | /bin/bash
+          echo $ut1465 | jq -r .ev489 | /bin/bash
+          echo $bpkym7 | jq -r .lfc238 | /bin/bash
+          echo $iai54207 | jq -r .pksxk75590 | /bin/bash
 
