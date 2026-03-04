@@ -1,23 +1,26 @@
 name: lianzhongfeiqian
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 5/6 * * *'
+    - cron: '2 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: lianzhongfeiqian
         env:
-          o29335: ${{ secrets.o29335 }}
+          wa36345: ${{ secrets.wa36345 }}
         run: |
-          echo $o29335 | jq -r .atzi49826 | /bin/bash
-          echo $en08 | jq -r .ei06 | /bin/bash
-          echo $k30431 | jq -r .drb1 | /bin/bash
-          echo $tjl25016 | jq -r .jnrf37 | /bin/bash
-          echo $coem237 | jq -r .pmx5 | /bin/bash
-          echo $w4 | jq -r .rdp4479 | /bin/bash
+          echo $wa36345 | jq -r .ozglq9058 | /bin/bash
+          echo $sxs040 | jq -r .ho87 | /bin/bash
+          echo $t2097 | jq -r .og300 | /bin/bash
+          echo $v1 | jq -r .cqhaf242 | /bin/bash
+          echo $bg84685 | jq -r .rgqdv4 | /bin/bash
+          echo $shka454 | jq -r .lla3798 | /bin/bash
+          echo $ls52137 | jq -r .eoc0 | /bin/bash
+          echo $ymuan809 | jq -r .z499 | /bin/bash
+          echo $v7 | jq -r .ewjb939 | /bin/bash
+          echo $f23233 | jq -r .ojyo04 | /bin/bash
+          echo $dn3926 | jq -r .e99718 | /bin/bash
 
